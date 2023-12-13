@@ -1,0 +1,20 @@
+$ aws iam get-group --group-name MyIamGroup
+{
+    "Group": {
+        "GroupName": "MyIamGroup",
+        "CreateDate": "2018-12-14T03:03:52Z",
+        "GroupId": "AGPAJNUJ2W4IJVEXAMPLE",
+        "Arn": "arn:aws:iam::123456789012:group/MyIamGroup",
+        "Path": "/"
+    },
+    "Users": [
+        {
+            "UserName": "MyUser",
+            "Path": "/",
+            "CreateDate": "2018-12-14T03:13:02Z",
+            "UserId": "AIDAJY2PE5XUZ4EXAMPLE",
+            "Arn": "arn:aws:iam::123456789012:user/MyUser"
+        }
+    ],
+    "IsTruncated": "false"
+}
